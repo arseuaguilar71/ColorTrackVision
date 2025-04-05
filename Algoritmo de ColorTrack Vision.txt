@@ -1,0 +1,28 @@
+Inicio
+
+1. Inicializar la cámara y los módulos de adquisición de imagen.
+2. Crear y configurar una imagen vacía para mostrar resultados.
+3. Iniciar el bucle principal del programa (While Loop).
+
+   Mientras no se presione el botón "Salir":
+       a. Capturar una imagen desde la cámara en tiempo real.
+       b. Convertir la imagen a espacio de color adecuado (por ejemplo, RGB o HSL).
+       c. Aplicar umbralización para detectar un color específico (rojo, verde, etc.):
+           - Comparar valores de color por canal.
+           - Generar una imagen binaria con los objetos que cumplen con el color.
+       d. Aplicar procesamiento adicional (si es necesario):
+           - Eliminar ruido.
+           - Operaciones morfológicas.
+       e. Analizar la imagen binaria:
+           - Detectar blobs (partículas u objetos).
+           - Contar la cantidad de objetos detectados.
+       f. Mostrar la imagen original y los resultados en la interfaz:
+           - Imagen en vivo.
+           - Conteo de objetos.
+           - Indicadores de color.
+       g. Esperar un breve intervalo antes de la siguiente iteración.
+
+4. Finalizar el bucle.
+5. Cerrar sesión de la cámara y liberar recursos.
+
+Fin
